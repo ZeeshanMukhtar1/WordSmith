@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- fav -->
+    <link rel="shortcut icon" href="./fav/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./fav/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Dictionary</title>
+  </head>
+  <body>
+    <audio id="sound"></audio>
+    <div class="container">
+      <div class="search-box">
+        <input
+          type="text"
+          placeholder="Type the word you're looking for.!"
+          id="inp-word"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="result" id="result"></div>
+    </div>
+    <!-- JS  -->
+    <script src="./JS/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
