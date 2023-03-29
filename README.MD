@@ -6,6 +6,10 @@ WordSmith | Dictionary App 📚
 
 This is a simple dictionary app built using HTML, CSS, and JavaScript. The app uses the [Dictionary API](https://dictionaryapi.dev/) to fetch word definitions and display them to the user.
 
+## Preview
+[Live Dictionary](https://ZeeshanMukhtar1.github.io/WordSmith/
+)
+
 ### Features
 
 - Search for word definitions
